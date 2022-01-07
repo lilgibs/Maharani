@@ -97,6 +97,8 @@ h6 a:hover {
     opacity: .8
 }
 
+
+
 a {
     color: #1f1f1f;
     text-decoration: none;
@@ -128,6 +130,14 @@ a,
     color: #767676;
     margin: 0;
     padding: 0;
+}
+
+.link-a{
+    color: #E0C097;
+}
+
+.link-a:hover{
+    color: #cfa671
 }
 
 blockquote {
