@@ -276,6 +276,18 @@ button:focus{
     border-color: #cfa671;
 }
 
+.btn-outline-new-black {
+    color: #E0C097;
+    background-color: transparent;
+    background-image: none;
+    border-color: #E0C097;
+}
+.btn-outline-new-black:hover {
+    color: #2D2424;
+    background-color: #E0C097;
+    border-color: #E0C097;
+}
+
 .overlay-background {
     background: #333;
     position: absolute;
@@ -330,10 +342,10 @@ button:focus{
 .inner-column p{
 	font-size: 18px;
 }
-.inner-column .btn-outline-new-white{
+.inner-column .btn-outline-new-white .btn-outline-new-black{
 	color: #E0C097;
 }
-.inner-column .btn-outline-new-white:hover{
+.inner-column .btn-outline-new-white .btn-outline-new-black:hover{
 	color: #2D2424;
 }
 
