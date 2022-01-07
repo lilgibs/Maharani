@@ -176,6 +176,7 @@ button:focus{
 	color: #010101;
 	font-size: 18px;
 	padding: 0px 20px;
+    margin: 0px 2px;
 	border-radius: 4px;
 }
 
