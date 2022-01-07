@@ -651,11 +651,11 @@ button:focus{
 
 .footer-area p.lead{
 	font-size: 19px;
-	color: #2D2424;
+	color: rgba(255, 255, 255, 0.8);
 	margin-bottom: 15px;
 }
 .footer-area p.lead a{
-	color: #2D2424;
+	color: rgba(255, 255, 255, 0.8);
 	margin-bottom: 15px;
 }
 .footer-area p.lead a:hover{
@@ -663,7 +663,7 @@ button:focus{
 }
 .footer-area p a{
 	font-size: 18px;
-	color: #2D2424;
+	color: rgba(255, 255, 255, 0.8);
 }
 .footer-area p a:hover{
 	color: #E0C097;
