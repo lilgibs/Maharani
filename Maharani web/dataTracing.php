@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+    session_start();
+    if (!isset($_SESSION['username'])){
+        header("Location: login.php");
+    }
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,6 +19,7 @@
         <input type="text" name="cari" id="cari" placeholder="Masukan NIP">
         <input type="submit" value="Cari">
     </form>
+    <a href="controller/action-logout.php">Logout</a>
     <table>
         <thead>
             <tr>
