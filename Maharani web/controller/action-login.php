@@ -1,7 +1,7 @@
 <?php
     // variable pendefinisian kredensial
-    $usernamelogin = 'rizky';
-    $passwordlogin = 'passwordlogin';
+    $usernamelogin = 'admin';
+    $passwordlogin = 'maharaniadmin';
 
     // memulai session
     session_start();
@@ -14,9 +14,9 @@
     if ($username == $usernamelogin && $password == $passwordlogin) {
         session_start();
         $_SESSION['username'] = $username;
-        header("Location: app.php");
+        header("Location: ../dataTracing.php");
     } 
     else {
-        header("Location: login.php");
+        header("Location: ../login.php");
    }
 ?>
