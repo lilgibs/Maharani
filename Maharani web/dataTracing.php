@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="table_style.css">
+    
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="logo" href="images/logo.png">
@@ -93,6 +94,18 @@
             echo "<meta http-equiv=refresh content=2;URL='dataTracing.php'>";
         }
     ?>
+<!-- ALL JS FILES -->
+<script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+          <!-- ALL PLUGINS -->
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/images-loded.min.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/baguetteBox.min.js"></script>
+        <script src="js/form-validator.min.js"></script>
+          <script src="js/contact-form-script.js"></script>
+          <script src="js/custom.js"></script>
 </body>
 </html>
 

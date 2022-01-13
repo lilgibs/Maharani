@@ -365,7 +365,7 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/qt-bg.jpg) no-repeat;
+	background: url(../images/quote.jpg) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
@@ -660,7 +660,7 @@ button:focus{
 	z-index: 1;
 }
 .footer-area h3{
-	color: #2D2424;
+	color: rgba(255, 255, 255, 0.8);
 	text-transform: uppercase;
 	font-size: 24px;
 	border-bottom: 1px dashed rgba(207, 166, 113, 0.5);
@@ -765,7 +765,7 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    background: url(../images/menu-bg.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
@@ -788,7 +788,7 @@ button:focus{
 }
 .all-page-title h1{
 	font-size: 38px;
-	color: #2D2424;
+	color: #E0C097;
 	font-family: 'Arbutus Slab', serif;
 	padding: 0px;
 }
