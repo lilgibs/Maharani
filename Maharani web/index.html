@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include'view/head.html' ?>
+    <head>
+    <script>
+      // Menggunakan JavaScript untuk memuat konten head.html
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementsByTagName("head")[0].innerHTML += this.responseText;
+        }
+      };
+      xhttp.open("GET", "view/head.html", true);
+      xhttp.send();
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
     <body>
         <header class="top-navbar">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
